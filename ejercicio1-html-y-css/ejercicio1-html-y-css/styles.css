@@ -1,0 +1,43 @@
+
+  form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, #bd09b7, #6b4cf5);
+    color: #ffffff;
+    font-size: 12px;
+    box-shadow: 0 0 20px 0 #000000;
+  }
+
+  input {
+    background-color: #ffffff;
+    padding: 7px;
+    width: 100%;  
+  }
+
+  input[type="submit"] {
+    padding-top:5px;
+    padding-right:15px;
+    padding-bottom:5px;
+    padding-left:15px;
+    color: #000000;
+    font-size: 12px;
+    background-color: #fffff;
+    width: 30%;  
+    
+ }
+
+ fieldset {
+  border: 0px;
+ }
+
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+ 
+
+

@@ -5,6 +5,43 @@
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-  <body>
+
+<body>
+ 
+  <form method="post" action='https://ricardolopez.art'>
+    <fieldset>
+      <h1>Login</h1>
+      <label for="email">Email<input id="email" name="email" type="email" required />
+      </label>
+
+      <label for="password">Password<input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required />
+      </label>
+
+      <label for="genero">Género
+        <select id="genero" name="genero">
+          <option value="">(seleccione uno)</option>
+          <option value="1">Masculino</option>
+          <option value="2">Femenino</option>
+          <option value="3">Otro</option>
+        </select>
+      </label>
+
+      <label for="terminos-y-condiciones">
+        <input id="terminos-y-condiciones" type="checkbox" required name="terminos-y-condiciones" class="inline" />
+        Acepto terminos y condiciones
+      </label>
+
+      <input type="submit" value="Ingresar"/>
+
+    </fieldset>
+
+
+
+   
+
+    
+
+  </form>
 </body>
+
 </html>
